@@ -21,4 +21,4 @@ Please make sure that your system has already installed `JSON Server` mock datab
 From the project folder `/ipgstore`, just type `npm install` from your cmd/git bash.
 
 # Step 4
-Its a final step to see the result in the brower, `npm run start:proxy:mock:server` and check the result in browser using `http://localhost:4200`
+Its a final step to see the result in the browser, `npm run start:proxy:mock:server` and check the result in the browser using `http://localhost:4200`
