@@ -1,12 +1,14 @@
 # Ipgcart
 
 # Stack Details
-1) Angular 6
+1) Angular 6.1.3
 2) Ng Bootstrap
 3) JSON-SERVER (Mock database)
+4) Angular CLI 6.0.8
+5) Node 8.11.2
 
 # Step 1
-
+Install Angular CLI 6.0.8 and
 clone the git repo using `git clone https://github.com/designerlabs/ipgstore.git`
 
 # Step 2
