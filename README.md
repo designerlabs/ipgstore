@@ -1,11 +1,12 @@
 # Ipgcart
 
-# Stack Details
+# Stack Details (Very Important)
 1) Angular 6.1.3
 2) Ng Bootstrap
 3) JSON-SERVER (Mock database)
-4) Angular CLI 6.0.8
-5) Node 8.11.2
+4) Angular CLI 6.0.8 (important)
+5) Node 8.11.2 (important)
+6) Concurrently
 
 # Step 1
 Install Angular CLI 6.0.8 and
@@ -20,4 +21,4 @@ Please make sure that your system has already installed `JSON Server` mock datab
 From the project folder `/ipgstore`, just type `npm install` from your cmd/git bash.
 
 # Step 4
-Its a final step to see the result in the brower, `npm run start:proxy:mock:server`
+Its a final step to see the result in the brower, `npm run start:proxy:mock:server` and check the result in browser using `http://localhost:4200`
