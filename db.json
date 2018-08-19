@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "categoryId": 1,
+      "product_name": "Jacket Men",
+      "product_img": "https://fakeimg.pl/100x100/?text=JacketMen&font=lobster",
+      "description": "Jacket Men Overcoat Casual Bomber Jackets Mens Outwear Windbreaker Coat",
+      "checked": false,
+      "price": 40,
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "categoryId": 1,
+      "product_name": "Forest V Neck Tees",
+      "product_img": "https://fakeimg.pl/100x100/?text=ForestNeckTees&font=lobster",
+      "description": "Forest V Neck Tees",
+      "checked": false,
+      "price": 18.75,
+      "rating": 3,
+      "id": 2
+    },
+    {
+      "categoryId": 1,
+      "product_name": "Colorado Flag T-Shirt",
+      "product_img": "https://fakeimg.pl/100x100/?text=Colorado&font=lobster",
+      "description": "Colorado Flag T-Shirt Mens Womens Short Sleeve T Shirt Summer Cool",
+      "checked": false,
+      "price": 36.86,
+      "rating": 4,
+      "id": 3
+    },
+    {
+      "categoryId": 1,
+      "product_name": "Fancyqube Men Casual",
+      "product_img": "https://fakeimg.pl/100x100/?text=Fancyqube&font=lobster",
+      "description": "Fancyqube Men Casual Summer Stitching Printing Short Sleeves Sli",
+      "checked": false,
+      "price": 19.28,
+      "rating": 4.5,
+      "id": 4
+    },
+    {
+      "categoryId": 2,
+      "product_name": "Caidaifei Women’s Korean-style",
+      "product_img": "https://fakeimg.pl/100x100/?text=Caidaifei&font=lobster",
+      "description": "Caidaifei Women’s Korean-style Fashionable Chiffon Long Sleeve ",
+      "checked": false,
+      "price": 13.9,
+      "rating": 5,
+      "id": 5
+    },
+    {
+      "categoryId": 2,
+      "product_name": "Yonghengxuanyan Women’s ",
+      "product_img": "https://fakeimg.pl/100x100/?text=Yonghengxuanyan&font=lobster",
+      "description": "Yonghengxuanyan Women’s Hongkong-style Retro Long Sleeve ",
+      "checked": false,
+      "price": 18.75,
+      "rating": 3,
+      "id": 6
+    },
+    {
+      "categoryId": 2,
+      "product_name": "Women Korean",
+      "product_img": "https://fakeimg.pl/100x100/?text=Korean&font=lobster",
+      "description": "Women Korean style crew neck short sleeves shirt",
+      "checked": false,
+      "price": 7.5,
+      "rating": 4,
+      "id": 7
+    },
+    {
+      "categoryId": 2,
+      "product_name": "Women chiffon",
+      "product_img": "https://fakeimg.pl/100x100/?text=chiffon&font=lobster",
+      "description": "Women chiffon floral print blouse",
+      "checked": false,
+      "price": 18.2,
+      "rating": 2.5,
+      "id": 8
+    },
+    {
+      "categoryId": 3,
+      "product_name": "Cute Baby Kids",
+      "product_img": "https://fakeimg.pl/100x100/?text=Baby&font=lobster",
+      "description": "Cute Baby Kids Girls Dress Princess Party Denim Cotton Tutu Dresses ",
+      "checked": false,
+      "price": 27.3,
+      "rating": 5,
+      "id": 9
+    },
+    {
+      "categoryId": 3,
+      "product_name": "Flower Girls Princess Dress",
+      "product_img": "https://fakeimg.pl/100x100/?text=Flower&font=lobster",
+      "description": "Flower Girls Princess Dress Kids Party Pageant Floral Wedding",
+      "checked": false,
+      "price": 24.8,
+      "rating": 3,
+      "id": 10
+    },
+    {
+      "categoryId": 3,
+      "product_name": "Kids Girls Chiffon",
+      "product_img": "https://fakeimg.pl/100x100/?text=Kids&font=lobster",
+      "description": "Kids Girls Chiffon Lace Princess Wedding Bridesmaid Pageant Party ",
+      "checked": false,
+      "price": 53,
+      "rating": 4,
+      "id": 11
+    },
+    {
+      "categoryId": 3,
+      "product_name": "Toddler Baby Kids ",
+      "product_img": "https://fakeimg.pl/100x100/?text=Toddler&font=lobster",
+      "description": "Toddler Baby Kids Girls Flower Bohemian Princess Dress Beach",
+      "checked": false,
+      "price": 13.6,
+      "rating": 2.5,
+      "id": 12
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "category_name": "Men's Wear"
+    },
+    {
+      "id": 2,
+      "category_name": "Women's Wear"
+    },
+    {
+      "id": 3,
+      "category_name": "Kids's Wear"
+    }
+  ],
+  "totalItem": [
+    {
+      "value": 0,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+
+/* visited link */
+
+.itemList{
+    cursor: pointer;
+}
+
+.initalList{
+    color: black;
+    background: #d5e0ff;
+}
+
+.itemList:visited {
+    color: black;
+    background: #d5e0ff;
+}
+
+/* mouse over link */
+.itemList:hover {
+    color: black;
+    background: #d5e0ff;
+}
+
+/* selected link */
+.itemList:active {
+    color: black;
+    background: #d5e0ff;
+}

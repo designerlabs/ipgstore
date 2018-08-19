@@ -1,0 +1,20 @@
+{
+    "/products":{
+        "target":"http://localhost:3000",
+        "secure":false
+    },
+    "/category":{
+        "target":"http://localhost:3000",
+        "secure":false
+    },
+    "/category/*/products":{
+        "target":"http://localhost:3000",
+        "secure":false
+    },
+    
+    "/totalItem":{
+        "target":"http://localhost:3000",
+        "secure":false
+    }
+
+}

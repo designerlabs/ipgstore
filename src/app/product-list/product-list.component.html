@@ -1,0 +1,48 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>Category List</h3>
+          <ul class="list-group">
+            <li class="list-group-item itemList" (click)="allProduct()">All</li>
+            <li class="list-group-item itemList" *ngFor="let category of categoryList; let i = index" (click)="selectCat($event, category.id)">
+               {{category.category_name}}
+            </li>
+          </ul>
+      </div>
+      <div class="col-12 col-lg-5 col-sm-12 col-md-5">
+        <h3>Product List</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12" style="padding-bottom: 10px;" *ngFor="let product of productList">
+            <div class="card">
+                <img class="card-img-top" [src]="product.product_img" alt="">
+              <div class="card-body">
+                <h5 class="card-title">{{(product.product_name.length > 15) ? (product.product_name | slice:0:15) + '..' : (product.product_name) }}</h5>
+                <p class="card-text">{{ (product.description.length > 20) ? (product.description | slice:0:20) + '..' : (product.description)}}</p>
+                <app-rating rating="{{product.rating}}"></app-rating>
+                <h6>{{product.price | currency : 'RM' }}</h6>
+                <button  [disabled]="product.checked"  class="btn btn-sm btn-block btn-primary" (click)="selectCart(product.id, product)">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h3>Cart Item <span style="text-align: right; float:right;">{{totalItems | currency : 'RM'}}</span></h3>
+        <div class="row">
+            <div class="col-12" *ngFor="let product of cartItem">
+              <div class="card" style="padding-bottom: 10px;" *ngIf="product.checked">
+                <div class="card-body">
+                  <h5 class="card-title">{{product.product_name}}</h5>
+                  <p class="card-text">{{product.description}}</p>
+                  <app-rating rating="{{product.rating}}"></app-rating>
+                  <h6>{{product.price | currency : 'RM' }}</h6>
+                  <button class="btn btn-lg btn-block btn-danger" (click)="selectCart(product.id, product)">Delete Item</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- <app-cart></app-cart> -->
+      </div>
+    </div>
+</div>
